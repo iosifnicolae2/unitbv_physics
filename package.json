@@ -1,0 +1,28 @@
+{
+  "name": "fizica_android",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.0.0-alpha.6",
+    "react-native": "^0.44.0",
+    "react-native-action-button": "^2.6.9",
+    "react-native-modal-wrapper": "^2.3.0",
+    "react-native-pathjs-charts": "0.0.28",
+    "react-native-svg": "^5.1.8",
+    "react-native-vector-icons": "^4.1.1",
+    "socket.io-client": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "1.9.2",
+    "jest": "20.0.3",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
